@@ -1,2 +1,4 @@
-name: Freistil
+name: Superkartoffel
 markdown: kramdown
+
+permalink: /blog/:year-:month-:day-:title
