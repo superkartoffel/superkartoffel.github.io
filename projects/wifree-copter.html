@@ -9,7 +9,7 @@ tags: project
 	<ul class="posts">
 	
 	  {% for post in site.posts %}
-	    {% if page.tags contains "wifreecopter" %}
+	    {% if post.tags contains "wifreecopter" %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endif %} 
 	  {% endfor %}
