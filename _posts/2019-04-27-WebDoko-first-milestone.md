@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "WebDoko: first milestone"
 date: 2019-04-27
 tags: webdoko
+categories:
+  - WebDoko
 ---
 
 The first milestone of the [WebDoko project](/projects/webdoko) has been reached:

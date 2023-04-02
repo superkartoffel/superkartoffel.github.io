@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "WebDoko project announcement"
 date: 2019-02-25
 tags: webdoko
+categories:
+  - WebDoko
 ---
 One of my favorite card games is [Doppelkopf](https://en.wikipedia.org/wiki/Doppelkopf). I have previously implemented 
 an online version of this game using Unity3D, but this project was retired right before it was released to the public.
