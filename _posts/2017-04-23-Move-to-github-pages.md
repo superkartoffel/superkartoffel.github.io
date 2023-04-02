@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Move blog to github pages"
 date: 2017-04-23
 ---

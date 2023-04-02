@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Accelerated view synthesis"
 date: 2012-01-31
 ---
@@ -10,7 +9,7 @@ In this post I want to introduce you to the topic of my bachelor thesis. I will 
 The title sounds complicated, as it should be for a scientific work. So what is it about:
 
 # View-Synthesis
-![view-synthesis](/images/view-synth.gif)
+![view-synthesis](/assets/images/view-synth.gif)
 
 View-synthesis means that in a video sequence the camera position is changed afterwards and thus the observed scene can be shown from a different angle. What's the point? Legitimate question. In the first place, the view-synthesis is used to transmit 3D video data. Note: Here one must not confuse 3D Video with the well known stereo video as in 3D cinemas. In contrast to stereo-video, where only two video streams for the right and left eye are showed, 3D video displays show many perspectives simultaneously. This is of course only possible with [auto-stereoscopic displays](http://en.wikipedia.org/wiki/Autostereoscopy). Depending on the angle you look at this display you will see a different image - without any annoying 3D glasses. However, in order to reduce the huge amount of data for all of these images, not all angles are getting transferred. Instead, we use view-synthesis to create these images afterwards. This is only possible if in addition to the video signals, [depth or disparity maps](http://en.wikipedia.org/wiki/Depth_map) are transferred. That means, that not only the color but also the distance to the camera is given for each pixel. The distance can be measured either with a special device, e.g. the [Microsoft Kinect camera](http://en.wikipedia.org/wiki/Kinect), or can be calculated in afterwards. [![example for a depth map](http://upload.wikimedia.org/wikipedia/commons/d/dd/2D_plus_depth.png)](http://upload.wikimedia.org/wikipedia/commons/d/dd/2D_plus_depth.png)
 
@@ -23,7 +22,7 @@ For the actual application, namely "offline" view synthesis: calculate, store an
 
 # Demo-Anwendung
 
-[![Video of a demonstration of the demo application](/images/yt/view-synth.jpg "click to go to play video on youtube")](https://youtu.be/toVHm2jQFAU)
+[![Video of a demonstration of the demo application](/assets/images/yt/view-synth.jpg "click to go to play video on youtube")](https://youtu.be/toVHm2jQFAU)
 
 My comments are in German, sorry.
 

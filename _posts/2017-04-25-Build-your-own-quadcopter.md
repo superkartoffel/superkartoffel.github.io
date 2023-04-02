@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "Build your own quadcopter"
 date: 2017-04-25
 tags: wifreecopter
+categories:
+  - "WiFree copter"
 ---
 ## Build report of the WiFree copter
 Thanks to my favorite magazine [Make](https://www.heise.de/make), I recently came across the wonderful website [Open-DIY-projects](http://www.open-diy-projects.com).
@@ -44,7 +45,7 @@ The solution was to use the chip manufacturers tool [*stm32flash*](https://aur.a
 
 I used white PETG (from hobbyking as well) in my Flashforge Dreamer to print the frame. PETG is more flexible and does not break as easily as PLA. The print worked without any problems. I did not even need any support structures. It was certainly not the most beautiful print (lots of stringing), but could easily be cleaned using a hobby knife.
 
-[![Overview of WiFree copter parts](/images/wifree/overview_thumb.jpg)](/images/wifree/overview.jpg)
+[![Overview of WiFree copter parts](/assets/images/wifree/overview_thumb.jpg)](/assets/images/wifree/overview.jpg)
 
 ## Putting everything together
 
@@ -52,14 +53,14 @@ I could not fit all the electronics in the frame the way they were supposed to. 
 
 Here is the finished copter:
 
-[![Finished WiFree copter](/images/wifree/finished_front_thumb.jpg)](/images/wifree/finished_front.jpg)
+[![Finished WiFree copter](/assets/images/wifree/finished_front_thumb.jpg)](/assets/images/wifree/finished_front.jpg)
 
 
 # First flight
 
 It was the first time flying any quadcopter for me. I had some trouble keeping it at a steady height. But have a look for yourself:
 
-[![First flight](/images/yt/wifree-copter.jpg)](https://youtu.be/ZS2hGsVXJx4 "click to play video on youtube")
+[![First flight](/assets/images/yt/wifree-copter.jpg)](https://youtu.be/ZS2hGsVXJx4 "click to play video on youtube")
 
 The image is tilted because I did not mount the camera properly.
 
